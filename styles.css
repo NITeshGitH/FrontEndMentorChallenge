@@ -1,0 +1,120 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 4rem 4rem 0 4rem;
+    background-size: 1440px auto;
+    
+    
+}
+.style-heading {
+    font-family: "Poppins",sans-serif;
+    font-size: 2.8rem;
+}
+.para {
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+
+.title-image {
+    width: 18%;
+    padding-bottom: 5rem;
+}
+
+.illustration {
+    width : 95% ;
+}
+
+.row { 
+    display: flex;
+}
+
+.column-first {
+    flex: 60%;
+}
+.column-second {
+    flex : 40%; 
+}
+
+footer {
+    text-align: right;
+}  
+
+.circle a {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+
+.circle a:hover,.circle a:active {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 50px;
+    -webkit-box-shadow: 2px 3px 10px #4d4d4d;
+    -moz-box-shadow: 2px 3px 10px #4d4d4d;
+    box-shadow: 2px 2px 5px #4d4d4d;
+    font-family:"Poppins";
+    color: hsl(257, 40%, 49%);
+    font-size: 1.1rem;
+    background: #ffffff;
+    padding: 15px;
+    width: 200px;
+    margin-bottom: 60px;
+    border: solid hsl(257, 40%, 49%) 2px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: hsl(300, 69%, 71%);
+    cursor: pointer;
+    text-decoration: none;
+}
+@media (max-width : 760px) {
+    body {
+        background-image: url("images/bg-mobile.svg");
+        margin: 1.5rem 2rem 2rem 2rem;
+        background-repeat: no-repeat;
+        background-size: 375px;
+    }
+    .title-image {
+        width: 45%;
+        padding-bottom: 4.1rem;
+    }
+    .style-heading {
+        font-family: "Poppins",sans-serif;
+        font-size: 1.5rem;
+        margin-top: 3.5rem;
+    }
+    .para {
+        line-height: 2rem;
+        font-size: 1.26rem;
+    }
+    .row { 
+        display: block;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    .btn {
+        width: 70%;
+        padding: 10px 10px;
+        box-shadow: 2px 2px 5px #4d4d4d;
+    }
+}
